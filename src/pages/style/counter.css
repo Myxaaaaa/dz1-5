@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://otkritkis.com/wp-content/uploads/2022/06/mvwyp.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+}
+
+div {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+h2 {
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: repeating-linear-gradient(white, white 2px, #4294d5 2px, #2a8ddc 3px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #183D58;
+    display: table;
+    margin: 20px auto;
+}
+
+
